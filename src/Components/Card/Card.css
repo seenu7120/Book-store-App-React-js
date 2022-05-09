@@ -1,0 +1,41 @@
+
+
+.card{
+    width: 300px;
+    height: 200px;
+    background-color:aliceblue;
+    margin: .5em;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6) ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 120px;
+    height: 160px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);  
+}
+
+.card .card-bottom{
+    width: 150px;
+    height:160px;
+}
+
+.card-bottom .name{
+    color: blue;
+}
+.card .rating{
+    color: rgb(27, 141, 141);
+}
+
+.card-bottom .price{
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+/* .card .more{
+    color: blue;
+} */
